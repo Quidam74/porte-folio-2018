@@ -13,7 +13,6 @@ export function isUnderBreakpoint(width = 960) {
   return window.matchMedia("(max-width: "+width+"px)").matches
 }
 
-
 export function getBrowser() {
   let parser = new UAParser();
   let result = parser.getResult();
