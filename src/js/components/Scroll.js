@@ -12,7 +12,7 @@ export default class Scroll {
         window.addEventListener("scroll",(data)=>{
             this.scroll = window.scrollY;
             window.scrollTo(this.scroll,this.scroll)
-            this.$body.style.transform = "translate(,"+this.scroll+"px)";
+            this.$body.style.transform = "translate(0,"+this.scroll+"px)";
 
 
         })
