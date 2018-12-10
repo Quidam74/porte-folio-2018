@@ -1,5 +1,5 @@
 
-export default class Scroll {
+export default class Page {
 
     constructor() {
         this.$body = document.querySelector(".body");

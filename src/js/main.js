@@ -1,6 +1,6 @@
 
 import Example from './components/Example'
-import Scroll from './components/Scroll'
+import Page from './components/Page'
 import {getBrowser} from './utils/environment'
 
 const App = {
@@ -14,7 +14,7 @@ const App = {
         this.bindEvent();
 
         console.log(getBrowser());
-        new Scroll();
+        new Page();
     },
 
     bindEvent(){
