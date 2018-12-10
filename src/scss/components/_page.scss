@@ -3,7 +3,6 @@
   width: 400vw;
   height: 400vw;
   overflow-x: scroll !important;
-
   &::-webkit-scrollbar {
     display: none;
   }
@@ -14,7 +13,6 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-
   .page-next {
     background-color: red;
     width: 100%;
@@ -22,11 +20,10 @@
     margin: auto;
     margin-bottom: 0;
   }
-
 }
+
 .page:nth-child(even) {
   .page-next {
     margin: 0;
   }
-
 }
