@@ -19,9 +19,9 @@
     height: 50px;
     margin: auto;
     margin-bottom: 0;
-    &:nth-child(even) {
-      margin: 0;
-    }
 
+  }
+  .page-next:nth-child(even) {
+    margin: 0;
   }
 }
