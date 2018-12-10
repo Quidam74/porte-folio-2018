@@ -4,8 +4,8 @@ export default class Scroll {
     constructor() {
         this.$body = document.querySelector(".body");
 
-        bindEvent();
-        init();
+        this.bindEvent();
+        this.init();
     }
 
     bindEvent(){
