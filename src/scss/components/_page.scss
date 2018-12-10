@@ -23,12 +23,10 @@
     margin-bottom: 0;
   }
 
-  .page-next:nth-child(odd) {
+}
+.page:nth-child(even) {
+  .page-next {
     margin: 0;
   }
 
-  .page-next:first-of-type {
-    margin: auto;
-    margin-bottom: 0;
-  }
 }
