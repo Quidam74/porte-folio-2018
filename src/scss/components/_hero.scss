@@ -13,7 +13,7 @@
     margin-right: 0;
     width: 60%;
 
-    div {
+    .hero-objectiveBloc {
       display: flex;
       flex-direction: row;
       .hero-objectiveIMG
@@ -23,7 +23,7 @@
       .hero-objectiveText{
         display: flex;
       }
-      .hero-objectiveText div{
+      .hero-objectiveText .hero-objectiveTextBlock{
         margin: auto;
         margin-bottom: 0px;
       }
