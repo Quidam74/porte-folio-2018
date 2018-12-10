@@ -19,7 +19,7 @@
     height: 50px;
     margin: auto;
     margin-bottom: 0;
-    &:nth-child(2n) {
+    &:nth-child(even) {
       margin: 0;
     }
 
