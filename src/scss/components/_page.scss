@@ -2,7 +2,8 @@
   display: flex;
   width: 400vw;
   height: 400vw;
-  overflow-x: scroll!important;
+  overflow-x: scroll !important;
+
   &::-webkit-scrollbar {
     display: none;
   }
@@ -13,15 +14,21 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  .page-next{
+
+  .page-next {
     background-color: red;
     width: 100%;
     height: 50px;
     margin: auto;
     margin-bottom: 0;
-
   }
-  .page-next:nth-child(even) {
+
+  .page-next:nth-child(odd) {
     margin: 0;
+  }
+
+  .page-next:first-of-type {
+    margin: auto;
+    margin-bottom: 0;
   }
 }
