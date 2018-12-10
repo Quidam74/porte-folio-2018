@@ -15,11 +15,19 @@
   display: flex;
   flex-direction: column;
   .page-next {
+    display: flex;
     background-color: red;
     width: 100%;
     height: 50px;
     margin: auto;
     margin-bottom: 0;
+    .page-nextButton{
+      margin: auto;
+      margin-right: 20px;
+      color: white;
+      line-height: 0;
+
+    }
   }
 }
 
