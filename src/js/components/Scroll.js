@@ -10,7 +10,7 @@ export default class Scroll {
     bindEvent(){
         window.addEventListener("scroll",(data)=>{
             this.scroll = window.scrollY;
-            window.scrollX = this.scroll;
+            window.scrollTo(this.scroll,this.scroll)
         })
     }
     init(){
