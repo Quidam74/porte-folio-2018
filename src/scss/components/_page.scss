@@ -1,6 +1,9 @@
-.body{
+.body {
   display: flex;
+  width: 400vw;
+  overflow-x: scroll!important;
 }
-.page{
-width: 100vw;
+
+.page {
+  width: 100vw;
 }

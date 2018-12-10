@@ -1,5 +1,6 @@
 
 import Example from './components/Example'
+import Scroll from './components/Scroll'
 import {getBrowser} from './utils/environment'
 
 const App = {
@@ -13,7 +14,7 @@ const App = {
         this.bindEvent();
 
         console.log(getBrowser());
-        new Example();
+        new Scroll();
     },
 
     bindEvent(){
