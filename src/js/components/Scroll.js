@@ -13,6 +13,7 @@ export default class Scroll {
             this.scroll = window.scrollY;
             window.scrollTo(this.scroll,this.scroll)
             this.$body.style.transform = "translate(0,"+this.scroll+"px)";
+            this.$body.style.height = "calc(400vw - "+this.scroll+")";
 
 
         })
