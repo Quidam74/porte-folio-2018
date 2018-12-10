@@ -3,9 +3,20 @@
 
   &-personnalData {
     background-color: white;
+    display: none;
   }
 
   &-objective {
     background-color: white;
+    margin: auto;
+    margin-bottom: 40px;
+    width: 60%;
+    p{
+      margin: 15px;
+    }
+  }
+
+  .page-next{
+    margin: 0px;
   }
 }
