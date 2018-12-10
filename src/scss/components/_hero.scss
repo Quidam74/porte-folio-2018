@@ -12,12 +12,17 @@
     margin-bottom: 40px;
     margin-right: 0;
     width: 60%;
-    p{
-      margin: 15px;
+
+    div {
+      display: flex;
+      flex-direction: row;
+      p {
+        margin: 15px;
+      }
     }
   }
 
-  .page-next{
+  .page-next {
     margin: 0px;
   }
 }
