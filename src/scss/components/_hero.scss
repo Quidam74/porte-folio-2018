@@ -1,5 +1,5 @@
 .hero {
-  padding: 20px;
+
 
   &-personnalData {
     background-color: white;
@@ -16,6 +16,17 @@
     div {
       display: flex;
       flex-direction: row;
+      .hero-objectiveIMG
+      {
+        flex: none;
+      }
+      .hero-objectiveText{
+        display: flex;
+      }
+      .hero-objectiveText div{
+        margin: auto;
+        margin-bottom: 0px;
+      }
       p {
         margin: 15px;
       }
