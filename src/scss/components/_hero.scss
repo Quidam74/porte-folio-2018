@@ -1,5 +1,5 @@
 .hero {
-  background-color: white;
+  padding: 20px;
 
   &-personnalData {
     background-color: white;
@@ -10,6 +10,7 @@
     background-color: white;
     margin: auto;
     margin-bottom: 40px;
+    margin-right: 0;
     width: 60%;
     p{
       margin: 15px;
